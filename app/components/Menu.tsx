@@ -29,8 +29,8 @@ const Menu = () => {
 						<span className="text-violet-600">Startup</span> Visa
 					</div>
 					<ul className="hidden lg:flex flex flex-row gap-8 xl:gap-16">
-						{links.map((link) => (
-							<li key={link.text}>
+						{links.map((link, index) => (
+							<li key={index}>
 								<a
 									className="text-gray-400 ease-in-out duration-300 hover:text-gray-600"
 									href={link.link}

@@ -11,7 +11,6 @@ const InfoSection = () => {
 	const [active, setActive] = useState<Number | null>(1);
 	const handleClick = (text: Number) => {
 		setActive(text);
-		console.log(text); // Still "Taylor"!
 	};
 
 	const tabStyle = "absolute h-[48px] w-[168px] rounded-xl bg-violet-100 -z-10";

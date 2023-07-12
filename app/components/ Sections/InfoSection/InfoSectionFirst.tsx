@@ -23,8 +23,8 @@ const InfoSectionFirst = () => {
 			</h3>
 			<p className="text-gray-500">12 шагов для развития вашей идеи:</p>
 			<div className="gap-[16px] grid grid-cols-1 md:grid-cols-2  max-w-sm md:max-w-xl">
-				{FirstSection.map((text) => (
-					<div className="flex flex-row gap-[16px] items-center">
+				{FirstSection.map((text, index) => (
+					<div key={index} className="flex flex-row gap-[16px] items-center">
 						<div
 							className="h-[24px] w-[24px] bg-no-repeat bg-cover bg-center"
 							style={{ backgroundImage: "url(/CheckIcon.svg)" }}

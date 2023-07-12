@@ -8,7 +8,7 @@ interface ButtonProps {
 	label: string;
 	icon?: "idea" | "createForMe" | "business" | "menu" | null;
 	color?: "white" | "blue";
-	onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+	onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
 const Button: React.FC<ButtonProps> = ({
