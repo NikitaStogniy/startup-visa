@@ -15,7 +15,7 @@ const WhySpain = () => {
 				<div className="flex flex-col gap-[16px]">
 					<div className="flex flex-row gap-[16px] items-center">
 						<div
-							className="h-[24px] w-[24px] bg-no-repeat bg-cover bg-center"
+							className="h-[24px] w-[24px] bg-no-repeat bg-contain bg-center"
 							style={{ backgroundImage: "url(/CheckIcon.svg)" }}
 						/>
 						<div className="text-gray-400">
@@ -25,7 +25,7 @@ const WhySpain = () => {
 					</div>
 					<div className="flex flex-row gap-[16px] items-center">
 						<div
-							className="h-[24px] w-[24px] bg-no-repeat bg-cover bg-center"
+							className="h-[24px] w-[24px] bg-no-repeat bg-contain bg-center"
 							style={{ backgroundImage: "url(/CheckIcon.svg)" }}
 						/>
 						<div className="text-gray-400">
@@ -34,7 +34,7 @@ const WhySpain = () => {
 					</div>
 					<div className="flex flex-row gap-[16px] items-center">
 						<div
-							className="h-[24px] w-[24px] bg-no-repeat bg-cover bg-center"
+							className="h-[24px] w-[24px] bg-no-repeat bg-contain bg-center"
 							style={{ backgroundImage: "url(/CheckIcon.svg)" }}
 						/>
 						<div className="text-gray-400">
@@ -44,7 +44,7 @@ const WhySpain = () => {
 					</div>
 					<div className="flex flex-row gap-[16px] items-center">
 						<div
-							className="h-[24px] w-[24px] bg-no-repeat bg-cover bg-center"
+							className="h-[24px] w-[24px] bg-no-repeat bg-contain bg-center"
 							style={{ backgroundImage: "url(/CheckIcon.svg)" }}
 						/>
 						<div className="text-gray-400">
@@ -54,7 +54,7 @@ const WhySpain = () => {
 					</div>
 					<div className="flex flex-row gap-[16px] items-center">
 						<div
-							className="h-[24px] w-[24px] bg-no-repeat bg-cover bg-center"
+							className="h-[24px] w-[24px] bg-no-repeat bg-contain bg-center"
 							style={{ backgroundImage: "url(/CheckIcon.svg)" }}
 						/>
 						<div className="text-gray-400">
@@ -64,7 +64,7 @@ const WhySpain = () => {
 					</div>
 					<div className="flex flex-row gap-[16px] items-center">
 						<div
-							className="h-[24px] w-[24px] bg-no-repeat bg-cover bg-center"
+							className="h-[24px] w-[24px] bg-no-repeat bg-contain bg-center"
 							style={{ backgroundImage: "url(/CheckIcon.svg)" }}
 						/>
 						<div className="text-gray-400">
@@ -74,7 +74,7 @@ const WhySpain = () => {
 					</div>
 					<div className="flex flex-row gap-[16px] items-center">
 						<div
-							className="h-[24px] w-[24px] bg-no-repeat bg-cover bg-center"
+							className="h-[24px] w-[24px] bg-no-repeat bg-contain bg-center"
 							style={{ backgroundImage: "url(/CheckIcon.svg)" }}
 						/>
 						<div className="text-gray-400">
@@ -84,7 +84,7 @@ const WhySpain = () => {
 					</div>
 					<div className="flex flex-row gap-[16px] items-center">
 						<div
-							className="h-[24px] w-[24px] bg-no-repeat bg-cover bg-center"
+							className="h-[24px] w-[24px] bg-no-repeat bg-contain bg-center"
 							style={{ backgroundImage: "url(/CheckIcon.svg)" }}
 						/>
 						<div className="text-gray-400">

@@ -16,7 +16,7 @@ const InfoSectionFirst = () => {
 		"Расчет финансовой модели",
 	];
 	return (
-		<div className="flex flex-col gap-[24px] w-full">
+		<div className="flex flex-col gap-[24px] w-full p-4">
 			<h3 className="text-md sm:text-xl md:text-4xl font-bold ">
 				У вас есть идея бизнеса в Европе,
 				<br /> но она ещё не запущена?
