@@ -3,7 +3,7 @@ const Alhoritm = () => {
 		<div className="flex flex-col align-left w-4/5 px-24">
 			<h3 className="font-bold text-3xl py-8">Алгоритм действий</h3>
 
-			<ol className="hidden md:visible flex items-start">
+			<ol className="hidden md:flex items-start">
 				<li className="relative mb-6 sm:mb-0">
 					<div className="flex items-center">
 						<div className="z-10 flex items-center justify-center w-10 h-10 bg-violet-100 text-violet-600 text-xl rounded-full  shrink-0">
@@ -104,7 +104,7 @@ const Alhoritm = () => {
 					</div>
 				</li>
 			</ol>
-			<ol className="visible lg:hidden relative border-l border-gray-200">
+			<ol className="relative lg:hidden relative border-l border-gray-200">
 				<li className="mb-10 ml-6">
 					<span className="absolute flex items-center justify-center w-10 h-10  rounded-full -left-5  ring-white bg-violet-100 text-violet-600 text-xl">
 						1

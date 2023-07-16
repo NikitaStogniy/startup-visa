@@ -10,9 +10,9 @@ const Footer = () => {
 		{ text: "FAQ", link: "#" },
 	];
 	return (
-		<div className="w-full bg-gray-100  px-24 py-10">
+		<div className="w-full bg-gray-100 px-24 py-10">
 			<div className="py-8 flex flex-row justify-between w-full align-center items-center">
-				<div className="text-2xl font-bold">
+				<div className="text-3xl font-bold">
 					<span className="text-violet-600">Startup</span> Visa
 				</div>
 				<ul className="hidden flex flex-row gap-16">

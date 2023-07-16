@@ -3,7 +3,7 @@ import Button from "../Button";
 const WhyUs = () => {
 	return (
 		<div className="py-8 gap-[24px] flex flex-col items-center justify-center align-center w-full">
-			<h3 className="font-bold text-2xl text-center">Почему мы?</h3>
+			<h3 className="font-bold text-3xl text-center">Почему мы?</h3>
 			<div className="flex flex-col md:flex-row gap-4 justify-center">
 				<div className="line-through w-fit px-[16px] py-[8px] rounded-xl flex flex-row gap-[8px] bg-gray-100 text-gray-500">
 					Стресс

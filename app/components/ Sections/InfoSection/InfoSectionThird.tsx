@@ -5,7 +5,7 @@ import Button from "../../Button";
 const InfoSectionThird = () => {
 	return (
 		<div className="flex flex-col gap-[24px] p-4">
-			<h3 className="text-md sm:text-xl md:text-4xl font-bold ">
+			<h3 className="text-md sm:text-xl md:text-4xl font-bold">
 				У вас еще нет четкой идеи бизнеса
 				<br />
 				но вы хотите переехать в Европу?

@@ -25,7 +25,7 @@ const Menu = () => {
 		<div className="fixed flex-col z-50 w-full md:w3/4 backdrop-blur-sm">
 			<div className={open ? "bg-white" : "bg-white/70"}>
 				<div className=" py-8 flex flex-row justify-between w-full align-center items-center px-4">
-					<div className="text-2xl font-bold">
+					<div className="text-3xl font-bold">
 						<span className="text-violet-600">Startup</span> Visa
 					</div>
 					<ul className="hidden lg:flex flex flex-row gap-8 xl:gap-16">

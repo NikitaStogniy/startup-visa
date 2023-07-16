@@ -1,5 +1,7 @@
 "use client";
 
+import Button from "../../Button";
+
 const InfoSectionFirst = () => {
 	const FirstSection = [
 		"Первичное описание",
@@ -17,7 +19,7 @@ const InfoSectionFirst = () => {
 	];
 	return (
 		<div className="flex flex-col gap-[24px] w-full p-4">
-			<h3 className="text-md sm:text-xl md:text-4xl font-bold ">
+			<h3 className="text-md sm:text-xl md:text-4xl font-bold">
 				У вас есть идея бизнеса в Европе,
 				<br /> но она ещё не запущена?
 			</h3>
@@ -35,6 +37,7 @@ const InfoSectionFirst = () => {
 					</div>
 				))}
 			</div>
+			<Button label="Оставить заявку" type="fill" />
 		</div>
 	);
 };

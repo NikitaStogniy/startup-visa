@@ -40,23 +40,25 @@ const Faq = () => {
 		},
 	];
 	const accordion = " text-gray-400 py-4 ease-in-out duration-300";
-	const openedAccordion = "opacity-100 scale-10" + accordion;
-	const closedAccordion = "opacity-0 scale-0 -mt-10" + accordion;
+	const openedAccordion = "opacity-100 h-fit scale-10" + accordion;
+	const closedAccordion = "opacity-0 h-[0px] scale-0 " + accordion;
 	return (
 		<div>
 			<div className="flex flex-col align-center w-full">
 				<h3 className="font-bold text-3xl text-center py-8">
 					Часто задаваемые вопросы
 				</h3>
-				<div className="m-8">
+				<div className="m-8 flex flex-col">
 					{FaqData.map((faq, index) => (
 						<div
-							className="cursor-pointer flex flex-row gap-[16px] items-center"
+							className="h-auto cursor-pointer flex flex-row justify-between gap-[16px] items-center"
 							key={index}
 							onClick={() => toggle(index)}
 						>
 							<div className="max-w-3xl py-4">
-								<div className="font-semibold text-xl ">{faq.question}</div>
+								<div className="font-semibold text-xl w-full">
+									{faq.question}
+								</div>
 								<div
 									className={
 										opened === index ? openedAccordion : closedAccordion

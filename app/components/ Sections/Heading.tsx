@@ -13,7 +13,7 @@ const Heading = () => {
 				<br />
 				ВНЖ в Испании + проект
 			</h1>
-			<div className="backdrop-blur-xl bg-gray/95 rounded-xl w-fit center flex flex-col gap-[16px]">
+			<div className="backdrop-blur-xl bg-gray/95 rounded-xl w-fit center flex p-4 md:p-12 flex-col gap-[16px]">
 				<h2 className="text-lg sm:text-xl md:text-2xl center text-center">
 					Что такое стартап-виза ?
 				</h2>
