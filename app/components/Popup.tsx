@@ -27,7 +27,10 @@ const Popup: React.FC<Popup> = ({ popupControl }) => {
 			body: JSON.stringify(data),
 		}).then((res) => {});
 
-	const onSubmit: SubmitHandler<Inputs> = (data) => sendContactForm(data);
+	const onSubmit: SubmitHandler<Inputs> = (data) => {
+		popupControl();
+		sendContactForm(data);
+	};
 	const inputClass =
 		"rounded-xl bg-[#fafafa] border border-[#cccccc] p-4 w-full ease-in-out duration-300 hover:bg-[#fcfcfc] hover:border-[#222222]";
 	return (
