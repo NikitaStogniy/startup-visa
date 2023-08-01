@@ -1,5 +1,4 @@
 import { mailOptions, transporter } from "@/app/api/mail/nodemailer";
-import { Html } from "next/document";
 import { NextResponse, NextRequest } from "next/server";
 
 export  async function POST(req:NextRequest,res:NextResponse){
