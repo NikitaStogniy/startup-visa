@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Menu from "./components/Menu";
 import Heading from "./components/ Sections/Heading";
 import InfoSection from "./components/ Sections/InfoSection/InfoSection";
